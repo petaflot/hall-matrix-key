@@ -68,98 +68,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.62 0)
-		(end -6.445 1.175)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "bf8b2e61-da71-459b-adf9-cad10c6cf4b4")
-	)
-	(fp_line
-		(start -6.54 3.84)
-		(end -7.62 2.54)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "ba4bf340-e2e3-44cc-9ba3-5e373dc1aa26")
-	)
-	(fp_line
-		(start -6.54 3.84)
-		(end -4.93411 3.845068)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "e2dd9d6c-18c8-4d0d-8ec8-92d77bf26d88")
-	)
-	(fp_line
-		(start -6.445 1.175)
-		(end -1.365 1.175)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "812c1c16-114d-405f-8b2f-6cdfbb97d851")
-	)
-	(fp_line
-		(start -2.87 3.85)
-		(end 0.059346 3.845632)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "ad1f4951-f60d-46d4-8a44-634a638964eb")
-	)
-	(fp_line
-		(start -1.365 1.175)
-		(end 0 2.54)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "6ea06e8f-04f9-405b-ab27-d77d2b6747dd")
-	)
-	(fp_line
-		(start 0 0)
-		(end 1.109999 1.85)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "ac4f5d6b-02e1-4827-9c12-bfb01dae4e7b")
-	)
-	(fp_arc
-		(start -4.93411 3.845068)
-		(mid -3.901159 3.472483)
-		(end -2.87 3.85)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "7c661229-24c7-4bdf-bee6-6061fdb77102")
-	)
-	(fp_arc
-		(start 1.109999 1.85)
-		(mid 1.156493 3.148866)
-		(end 0.059346 3.845632)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "78df4b74-4c23-4acf-ad62-6804a0c483f4")
-	)
-	(fp_line
 		(start -1.27 -1.905)
 		(end 1.905 -1.905)
 		(stroke
@@ -191,12 +99,10 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd circle
 		(at -7.62 2.54 180)
-		(size 1.4 1.4)
-		(drill 0.45)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fd832a11-5c3f-46c6-bacb-1eb4e788246f")
 	)
 	(pad "1" thru_hole rect
@@ -208,12 +114,10 @@
 		(thermal_bridge_angle 45)
 		(uuid "1d10c6e4-8fd6-4d44-b628-c3462c556b88")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" smd circle
 		(at -7.62 0 180)
-		(size 1.4 1.4)
-		(drill 0.45)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1084c6e6-14cc-4e76-8cd4-0db2bb848c3d")
 	)
 	(pad "2" thru_hole circle
