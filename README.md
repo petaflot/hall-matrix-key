@@ -1,6 +1,6 @@
 # Hall Jumper Selector Matrix
 
-A tool to help getting the configuration of hall sensors correct for any arbitrary motor fitted with such devices.
+A tool to help getting the configuration of hall sensors correct for any arbitrary 3-phase electric motor fitted with such devices. There are 6 possible arrangements, for direct and inverse rotations, and shifts relative to the phases. A 2x04 matrix is sufficient to select each arrangement by connecting adjacent pins.
 
 ## Hall Key
 
@@ -21,4 +21,6 @@ A 2x04 pins jumper configuration matrix ; this project also includes a dedicated
 
 ![Solder jumper footprint](solderjumper_footprint.png)
 
-An alternative is to use 2x04 header pins and regular jumpers ; this enables the configuration to be changed easily afterwards.
+To ensure it can be accessed with the key, this footprint should go at the edge of the board.
+
+An alternative is to use 2x04 header pins and regular jumpers ; this enables the configuration to be changed easily afterwards. In the case, connect to the key with a short cable.
