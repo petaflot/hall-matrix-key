@@ -4736,8 +4736,8 @@
 	)
 	(pad "6" thru_hole circle
 		(at 17.75 0)
-		(size 0.8 0.8)
-		(drill 0.3)
+		(size 1.8 1.8)
+		(drill 0.67)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "69818431-c9d4-4017-8f55-4fbe07423553")
