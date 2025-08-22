@@ -2,6 +2,8 @@
 
 A tool to help getting the configuration of hall sensors correct for any arbitrary 3-phase electric motor fitted with such devices. There are 6 possible arrangements, for direct and inverse rotations, and shifts relative to the phases. A 2x04 matrix is sufficient to select each arrangement by connecting adjacent pins.
 
+A document that gives [more information on the arrangements](hall-jumper-matrix.pdf) can be found here.
+
 ## Hall Key
 
 A simple yet elaborate mechanical device to ease the task of finding the correct jumper configuration ; special care was taken to reduce wear on the sliding contacts and thus extend the device life.
